@@ -4,10 +4,94 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
+      .muted {
+        color: #999;
+      }
+      .container {
+        margin: 0 auto;
+        items-centered;
+        width: 600px;
+      }
+      .header {
+        font-size: 14px;
+        font-family: sans-serif;
+        margin-bottom: 5px;
+      }
 
+      .tweet {
+        font-size: 20px;
+        font-family: sans-serif;
+        max-width: 450px;
+      }
+      .col {
+        float: left;
+      }
+      .text {
+        margin-left: 1em;
+        overflow: hidden;
+        padding-right: 10px;
+        word-wrap: break-word;
+        display: inline-block;
+      }
+      .line {
+        clear: left;
+      }
+      body {
+        margin-top: 1cm;
+      }
+      img {
+        width: 100px;
+        margin-bottom: 5px;
+      }
     </style>
   </head>
   <body>
+
+    <div class="container">
+      <div class="col">
+        <img src="http://i.imgur.com/KveOp9g.png" alt="Scooby Doo">
+      </div>
+      <div class="text col">
+        <div class="header">
+          <b>The Lazy Chef </b><small class="muted">@thelazychef • Jan 1</small>
+        </div>
+        <div class="tweet">
+          <small>Any sandwich is a panini if you sit on it.</small>
+        </div>
+      </div>
+    </div>
+
+    <hr class="line" width="600px">
+
+    <div class="container" style="width: 600px;">
+      <div class="col">
+        <img src="http://i.imgur.com/KveOp9g.png" alt="Scooby Doo">
+      </div>
+      <div class="text col">
+        <div class="header">
+          <b>The Funny Parent </b><small class="muted">@funnydad • May 1</small>
+        </div>
+        <div class="tweet">
+          <small>Don't know where your kids are in the house? Turn off the internet and they'll show up quickly.</small>
+        </div>
+      </div>
+    </div>
+
+    <hr class="line" width="600px">
+
+    <div class="container" style="width: 600px;">
+      <div class="col">
+        <img src="http://i.imgur.com/KveOp9g.png" alt="Scooby Doo">
+      </div>
+      <div class="text col">
+        <div class="header">
+          <b>Hacker 2000 </b><small class="muted">@theforgetfulhacker • Feb 1</small>
+        </div>
+        <div class="tweet">
+          <small>I changed my password everywhere to 'incorrect.' That way when I forget it, it always reminds me, 'Your password is incorrect.'</small>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
